@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "948395918788",
+    "project_id": "teratourapp-3c7c6",
+    "storage_bucket": "teratourapp-3c7c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948395918788:android:29c20c86c868f8cfbc9091",
+        "android_client_info": {
+          "package_name": "com.iterahub.teratour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948395918788-3jom4tkbt0leup34ugl27bh13g737ccr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iterahub.teratour",
+            "certificate_hash": "35ade84946614cd53cc69863d8e2fd51ba851d49"
+          }
+        },
+        {
+          "client_id": "948395918788-s62e3o0gbebbd5ad3p2kihtaq8muk2dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd50ZU7i6RiKvaMUhBi0B4Bx2408Yq9as"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948395918788-s62e3o0gbebbd5ad3p2kihtaq8muk2dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
