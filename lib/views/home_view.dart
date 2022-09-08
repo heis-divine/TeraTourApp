@@ -40,7 +40,7 @@ class _HomeViewState extends State<HomeView> {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+        padding: const EdgeInsets.symmetric(vertical: 10),
         child: ListView(
           children: [
             Row(
@@ -64,17 +64,18 @@ class _HomeViewState extends State<HomeView> {
                   locationName: 'Roban Stores',
                   locationKm: '6km',
                 ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: schoolIcon),
+                  locationName: 'SOLIS',
+                  locationKm: '9km',
+                ),
               ],
             ),
-            LocationCircle(
-              icon: IconButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, descriptionPageRoute);
-                  },
-                  icon: schoolIcon),
-              locationName: 'SOLIS',
-              locationKm: '9km',
-            ),
+            SizedBox(height: 10,),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -96,8 +97,83 @@ class _HomeViewState extends State<HomeView> {
                   locationName: 'Bush Bar',
                   locationKm: '6km',
                 ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: barIcon),
+                  locationName: 'Bush Bar',
+                  locationKm: '6km',
+                ),
               ],
-            )
+            ),
+            SizedBox(height: 10,),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: hotelIcon),
+                  locationName: 'Toscana Hotels',
+                  locationKm: '4km',
+                ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: shoppingIcon),
+                  locationName: 'Roban Stores',
+                  locationKm: '6km',
+                ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: schoolIcon),
+                  locationName: 'SOLIS',
+                  locationKm: '9km',
+                ),
+              ],
+            ),
+            SizedBox(height: 10,),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: hospitalIcon),
+                  locationName: 'Good Shepherd',
+                  locationKm: '4km',
+                ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: barIcon),
+                  locationName: 'Bush Bar',
+                  locationKm: '6km',
+                ),
+                LocationCircle(
+                  icon: IconButton(
+                      onPressed: () {
+                        Navigator.pushNamed(context, descriptionPageRoute);
+                      },
+                      icon: barIcon),
+                  locationName: 'Bush Bar',
+                  locationKm: '6km',
+                ),
+              ],
+            ),
           ],
         ),
       ),
@@ -172,10 +248,10 @@ class LocationCircle extends StatelessWidget {
     return Column(
       children: [
         Container(
-          width: 120,
-          height: 120,
+          width: 100,
+          height: 100,
           decoration: const BoxDecoration(
-            color: Colors.blueGrey,
+            color: Color(0xffFFB6C1),
             shape: BoxShape.circle,
           ),
           child: icon,

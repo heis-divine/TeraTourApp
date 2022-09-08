@@ -156,6 +156,9 @@ class _LoginViewState extends State<LoginView> {
                       } on GenericAuthException {
                         await showErrorDialog(context, 'Authentication Error');
                       }
+                      setState(() {
+                        showSpinner = false;
+                      });
                     },
                     child: const Text(
                       'LOGIN',

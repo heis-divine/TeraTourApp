@@ -15,8 +15,8 @@ const frequentlyVisitedRoute = '/frequently/';
 const settingsRoute = '/settings/';
 const email = 'divinenjoku04@icloud.com';
 
-const kButtonColor = Color(0xff029273);
-const kViewTextStyle = TextStyle(fontSize: 20,fontWeight: FontWeight.w400);
+const kButtonColor = Colors.pink;
+const kViewTextStyle = TextStyle(fontSize: 12,fontWeight: FontWeight.w400);
 const kBigTextStyle = TextStyle(fontSize: 40, fontWeight: FontWeight.bold);
 const kMiniTextStyle = TextStyle(fontSize: 20, fontWeight: FontWeight.w400);
 const kTextFieldStyle = TextStyle(fontSize: 19,);
@@ -34,7 +34,12 @@ const kUserProfileTextStyle = TextStyle(fontSize: 17, fontWeight: FontWeight.w50
 
 //icon Constants
 const hotelIcon = Icon(Icons.hotel,color: Colors.white,size: 50,);
-const barIcon = Icon(Icons.restaurant, color: Colors.white,size: 50,);
+const barIcon = Icon(Icons.restaurant_sharp, color: Colors.white,size: 50,);
 const shoppingIcon = Icon(Icons.shopping_bag, color: Colors.white,size: 50);
 const schoolIcon = Icon(Icons.school, color: Colors.white,size: 50);
 const hospitalIcon = Icon(Icons.local_hospital, color: Colors.white,size: 50);
+const museumIcon = Icon(Icons.museum,color: Colors.white,size: 50);
+const marketIcon = Icon(Icons.store,color: Colors.white,size: 50);
+const restaurantIcon = Icon(Icons.restaurant,color: Colors.white,size: 50);
+const pharmacyIcon = Icon(Icons.local_pharmacy,color: Colors.white,size: 50);
+const clubIcon = Icon(Icons.party_mode,color: Colors.white,size: 50);

@@ -51,7 +51,7 @@ class _SettingsViewState extends State<SettingsView> {
           const SettingContainer(
               firstIconData: Icons.contact_mail,
               secondIconData: Icons.navigate_next,
-              text: "About us"),
+              text: "Contact us"),
           //help
           const SettingContainer(
               firstIconData: Icons.help,
